@@ -1,3 +1,3 @@
 flask>=2.0.2
 flask-wtf>=1.0.0
-yt2mp4>=1.0.3
+yt2mp4>=1.0.3 # my package, from https://github.com/donno2048/yt2mp4
