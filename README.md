@@ -5,7 +5,11 @@ YouTube to mp4 (on the web)
 ## Install requirements
 
 ```sh
-sudo apt install firefox-geckodriver -y
+sudo apt install wget firefox-esr -y
+wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
+sudo tar xvzf geckodriver-v0.30.0-linux64.tar.gz -C /usr/bin/
+chmod +x /usr/bin/geckodriver
+rm geckodriver-v0.30.0-linux64.tar.gz
 pip3 install -r requirements.txt
 ```
 
