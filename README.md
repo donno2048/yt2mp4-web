@@ -5,7 +5,7 @@ YouTube to mp4 (on the web)
 ## Install requirements
 
 ```sh
-sudo apt install wget firefox-esr -y
+sudo apt install wget ffmpeg firefox-esr -y
 wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
 sudo tar xvzf geckodriver-v0.30.0-linux64.tar.gz -C /usr/bin/
 chmod +x /usr/bin/geckodriver
