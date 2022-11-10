@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>yt2mp44web</title>
+    </head>
     <body>
         <h1>YouTube to mp4</h1>
         <p>It takes <b>up to</b> five minutes.</p>
-        <form action="" method="post" novalidate>{{ form.hidden_tag() }}<p>{{ form.url(size=40) }}{{ form.submit() }}</p></form>
+        <form action="" method="post">
+            <input id="url" name="url" placeholder="https://www.youtube.com/watch?v=***********" size="40" type="text" value="" required>
+            <input id="submit" name="submit" type="submit" value="submit">
+        </form>
     </body>
 </html>

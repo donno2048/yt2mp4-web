@@ -18,3 +18,5 @@ pip3 install -r requirements.txt
 ```sh
 python3 main.py
 ```
+
+Sometimes it returns an error but if you try again it usually succeeds.
